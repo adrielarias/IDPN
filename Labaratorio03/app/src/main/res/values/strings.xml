@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Labaratorio03</string>
+    <string name="app_name">Lab 03- Activity e Intent</string>
+    <string name="titulo">¡Bienvenido!</string>
+    <string name="nombre">Paciente</string>
+    <string name="dni">D.N.I.</string>
+    <string name="dir">Dirección</string>
+    <string name="aceptar">Aceptar</string>
 </resources>
