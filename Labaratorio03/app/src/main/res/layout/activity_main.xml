@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:stretchColumns="1">
-    android:padding="16dp"
+    android:padding="10dp"
     >
 
 <TableRow>
@@ -54,7 +54,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="Paciente"
-        android:padding="3dip"
         />
     <Button
         android:id="@+id/btnVisita"
@@ -64,4 +63,12 @@
         android:text="Visita"
         />
 </TableRow>
+    <Button
+        android:id="@+id/btnCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Correo"
+        />
+
 </TableLayout>
