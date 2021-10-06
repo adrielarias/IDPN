@@ -31,7 +31,7 @@
 
 
     <TextView
-        android:id="@+id/tvCUI"
+        android:id="@+id/tvDNI"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/dni"
@@ -40,7 +40,7 @@
         />
 </TableRow>
     <TextView
-        android:id="@+id/tvLeg"
+        android:id="@+id/tvDir"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/dir"
