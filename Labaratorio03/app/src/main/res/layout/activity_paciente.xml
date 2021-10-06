@@ -68,55 +68,55 @@
             app:layout_constraintTop_toBottomOf="@+id/inputDireccion" />
 
     <EditText
-            android:id="@+id/inputdni"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="70dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="20dp"
-            android:ems="10"
-            android:inputType="numberDecimal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/textdni"
-            app:layout_constraintTop_toBottomOf="@+id/textTitulo" />
+        android:id="@+id/inputdni"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textdni"
+        app:layout_constraintTop_toBottomOf="@+id/textTitulo" />
 
     <EditText
-            android:id="@+id/inputNombres"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="20dp"
-            android:ems="10"
-            android:inputType="numberDecimal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/textApellidos"
-            app:layout_constraintTop_toBottomOf="@+id/inputdni" />
+        android:id="@+id/inputNombres"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textApellidos"
+        app:layout_constraintTop_toBottomOf="@+id/inputdni" />
 
     <EditText
-            android:id="@+id/inputApellidos"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="53dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="20dp"
-            android:ems="10"
-            android:inputType="numberDecimal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/textApellidos"
-            app:layout_constraintTop_toBottomOf="@+id/inputNombres" />
+        android:id="@+id/inputApellidos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textApellidos"
+        app:layout_constraintTop_toBottomOf="@+id/inputNombres" />
 
     <EditText
-            android:id="@+id/inputDireccion"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="35dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="20dp"
-            android:ems="10"
-            android:inputType="numberDecimal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/textDireccion"
-            app:layout_constraintTop_toBottomOf="@+id/inputApellidos" />
+        android:id="@+id/inputDireccion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textDireccion"
+        app:layout_constraintTop_toBottomOf="@+id/inputApellidos" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

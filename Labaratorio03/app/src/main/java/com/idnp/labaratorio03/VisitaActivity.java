@@ -1,18 +1,16 @@
 package com.idnp.labaratorio03;
 
+import static com.idnp.labaratorio03.MainActivity.MESSAGE;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-
-import java.util.ArrayList;
-import java.util.List;
+import android.widget.Toast;
 
 public class VisitaActivity extends AppCompatActivity {
-
-    private static final int MAIN_ACTIVITY_REQUEST_CODE = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,15 +27,16 @@ public class VisitaActivity extends AppCompatActivity {
         TextView saturacion = (TextView) findViewById(R.id.inputSaturacion);
         Visita visitaTemp = new Visita(peso.getText().toString(),temperatura.getText().toString(),presion.getText().toString(),saturacion.getText().toString());
 
+        //Mensaje de guardado Toask
+        Toast.makeText(this, visitaTemp.getString(), Toast.LENGTH_SHORT).show();
+
         //Enviar a main
         Intent intent = new Intent(this, MainActivity.class);
         Bundle bundle = new Bundle();
-        bundle.putSerializable("visita", visitaTemp);
+        bundle.putSerializable(MESSAGE, visitaTemp);
         intent.putExtras(bundle);
-        startActivityForResult(intent, MAIN_ACTIVITY_REQUEST_CODE);
-
-        //Mensaje de guardado Toask
-
+        setResult(RESULT_OK,intent);
+        finish();
 
     }
 }

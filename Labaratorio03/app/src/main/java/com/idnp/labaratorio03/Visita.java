@@ -21,4 +21,40 @@ public class Visita implements Serializable {
         presion = pr;
         saturacion = s;
     }
+
+    public String getPeso() {
+        return peso;
+    }
+
+    public void setPeso(String peso) {
+        this.peso = peso;
+    }
+
+    public String getTemperatura() {
+        return temperatura;
+    }
+
+    public void setTemperatura(String temperatura) {
+        this.temperatura = temperatura;
+    }
+
+    public String getPresion() {
+        return presion;
+    }
+
+    public void setPresion(String presion) {
+        this.presion = presion;
+    }
+
+    public String getSaturacion() {
+        return saturacion;
+    }
+
+    public void setSaturacion(String saturacion) {
+        this.saturacion = saturacion;
+    }
+
+    public String getString(){
+        return "Peso: " + peso + "\tTemperatura: " + temperatura + "\nPresion: " + presion + "\tSaturacion: " + saturacion;
+    }
 }

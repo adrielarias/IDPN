@@ -9,14 +9,16 @@
     >
 
 <TableRow>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:gravity="right"
+        android:padding="3dip"
         android:text="@string/titulo"
         android:textSize="35dp"
         android:textStyle="bold"
-        android:layout_column="0"
-        android:padding="3dip"
         tools:layout_editor_absoluteX="200dp"
         tools:layout_editor_absoluteY="-4dp" />
 </TableRow>

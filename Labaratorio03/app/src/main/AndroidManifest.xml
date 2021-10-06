@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Labaratorio03">
         <activity
+            android:name=".PacienteActivity"
+            android:exported="true" />
+        <activity
             android:name=".VisitaActivity"
             android:exported="true" />
         <activity
